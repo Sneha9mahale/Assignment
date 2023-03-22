@@ -9,8 +9,8 @@ public class Student2nd {
 	}
 	public void display()
 	{
-		//getid();
-		
+		getid();
+		int id=12;
 		System.out.println("In display mode");
 	}
 	public static void main(String[] args) {
@@ -18,8 +18,6 @@ public class Student2nd {
 		int ge=s.getid();
 		System.out.println(ge);
 		s.display();
-				
-
 	}
 
 }
