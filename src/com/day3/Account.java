@@ -1,4 +1,4 @@
-package com.Method;
+package com.day3;
 import java.util.Scanner;
 public class Account {
 	int no;

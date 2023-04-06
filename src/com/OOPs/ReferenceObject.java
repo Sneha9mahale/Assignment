@@ -1,5 +1,5 @@
 package com.OOPs;
-
+//5) Write a program for class and object : (initialization through reference)
 class Student1{
 	int id;
 	String name;
