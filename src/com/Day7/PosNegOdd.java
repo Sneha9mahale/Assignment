@@ -19,30 +19,43 @@ public class PosNegOdd {
 		}
 		System.out.println(Arrays.toString(a));
 		System.out.println("Positive Number : ");
+		int count=0;
 		for(int i=0;i<a.length;i++)
 		{
-			if(a[i]>0)
+			if(a[i]>=0)
 			{
-				System.out.print(a[i]+" , ");
+				System.out.print(a[i]+"  ");
+				count++;
 			}
 		}
+		System.out.println();
+		System.out.println("No Of Positive Number : "+count);
 		System.out.println("Negative Number : ");
+		int countn=0;
 		for(int i=0;i<a.length;i++)
 		{
 			if(a[i]<0)
 			{
-				System.out.print(a[i]+" , ");
+				System.out.print(a[i]+"  ");
+				countn++;
 			}
 		}
+		System.out.println();
+		System.out.println("No Of Negative Number : "+countn);
 		System.out.println("Odd Number : ");
+		int counto=0;
 		for(int i=0;i<a.length;i++)
 		{
 			if(a[i]%2!=0)
 			{
 				System.out.print(a[i]+" , ");
+				counto++;
 			}
 		}
+		System.out.println();
+		System.out.println("No Of Odd Number : "+counto);
 		System.out.println("Even Number : ");
+		int counte=0;
 		for(int i=0;i<a.length;i++)
 		{
 			if(a[i]%2==0)
@@ -50,14 +63,18 @@ public class PosNegOdd {
 				System.out.print(a[i]+" , ");
 			}
 		}
-		System.out.println("Positive Number : ");
+		System.out.println();
+		System.out.println("No Of Even Number : "+counte);
+		System.out.println("Zero Number : ");
+		int count0=0;
 		for(int i=0;i<a.length;i++)
 		{
-			if(a[i]>0)
+			if(a[i]==0)
 			{
-				System.out.print(a[i]+" , ");
+				count0++;
 			}
 		}
+		System.out.println("No Of zero Number : "+count0);
 		
 
 	}

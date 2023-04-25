@@ -13,23 +13,23 @@ public class PresentNum {
 		{
 			a[i]=sc.nextInt();
 		}
-		for(int i=0;i<a.length;i++)
-		{
-			System.out.println(a[i]);
-		}
 		System.out.println(Arrays.toString(a));
+	
+		
 		System.out.println("Enter number : ");
 		int num=sc.nextInt();
+		boolean isvisited=false;
 		for(int i=0;i<a.length;i++)
 		{
 			if(num==a[i])
 			{
 				System.out.println("Number is Present");
+				isvisited =true;
 			}
-			else
-			{
-				System.out.println("Number is Not Present");
-			}
+		}
+		if(isvisited==false)
+		{
+			System.out.println("Number is not Present");
 		}
 		
 		
